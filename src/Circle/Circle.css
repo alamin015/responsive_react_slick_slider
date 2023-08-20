@@ -1,0 +1,27 @@
+.slick-slide > div {
+  margin: 0 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.slick-list {
+  margin: 0 -20px;
+}
+
+.slick-active.slick-center.slick-current > div {
+  box-shadow: 3px 3px 13px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(1, 25, 136, 0.5);
+  border-radius: 20px;
+}
+.slick-dots {
+  bottom: -50px;
+}
+
+.slick-dots li button::before {
+  font-size: 14px;
+  color: rgba(1, 25, 136, 1);
+}
+.slick-dots li.slick-active button::before {
+  color: rgba(1, 25, 136, 1);
+}
