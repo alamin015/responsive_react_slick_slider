@@ -40,7 +40,7 @@ const Circle = () => {
 
   return (
     <>
-      <div className='container mx-auto py-[60px]'>
+      <div className='container mx-auto py-[60px] overflow-x-hidden'>
         <Slider {...settings}>
           {images.map((img) => {
             return (
